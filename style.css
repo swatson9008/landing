@@ -1,0 +1,78 @@
+
+body {
+    
+    background: url(sandtile.jpg);
+    background-color:burlywood;
+    
+}
+
+.container {
+    background-color:cadetblue;
+    /* max-width: fit-content; */
+    margin: 0 auto;
+    padding: 0 200px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.logo {
+    display: flex;
+    align-self:
+}
+
+.navlinks {
+    list-style: none;
+    
+}
+
+.navibar ul{
+    display:flex;
+    align-items: center;
+    gap:5px;
+}
+
+.container1 {
+    display:flex; 
+    /* flex-direction: row;  */
+    border: 2px solid red;
+    justify-content:space-around;
+    align-items:center; 
+    padding: 0 200px;
+    margin-top: 50px;
+
+    
+} 
+
+.container1.seagull {
+    display:flex;
+    border: 2px solid red;
+    justify-content: space-between;
+    
+} 
+
+.signup {
+    background-color: royalblue;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    border-radius: 5px;
+    padding:5px;
+}
+
+a {
+    color:white;
+}
+
+
+.seagull {
+    display:flex;
+    border: 3px solid red;
+    justify-content: center;
+    flex-wrap: wrap;
+ } 
+    
+   
+
