@@ -10,9 +10,10 @@ body {
     background-color:cadetblue;
     /* max-width: fit-content; */
     margin: 0 auto;
-    padding: 0 200px;
+    padding: 0 300px;
     display: flex;
     justify-content:space-between;
+    
     
 }
 
@@ -30,15 +31,17 @@ body {
     display:flex;
     align-items: center;
     gap:5px;
+    
 }
 
 .container1 {
     display:flex; 
+    /* background-color: cadetblue; */
     /* flex-direction: row;  */
     /* border: 2px solid red; */
     justify-content:space-around;
     align-items:center; 
-    padding: 0 200px;
+    padding: 0 300px;
     margin-top: 50px;
 
     
@@ -51,6 +54,11 @@ body {
     
 } 
 
+/* .seagull{
+    border:3px solid red;
+    
+} */
+
 .signup {
     background-color: royalblue;
     color: white;
@@ -58,6 +66,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 100px;
+    height: 30px;
     border-radius: 5px;
     padding:5px;
 }
@@ -91,6 +100,9 @@ a {
     gap:100px;
     flex-shrink: 1;
     flex-wrap: wrap;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 40px;
 }
 
 .pic1 {
@@ -112,40 +124,55 @@ a {
     /* border: 3px solid red; */
     /* max-height: 500px; */
     background-color: grey;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     justify-content: center;
     align-items: center;
-    padding:10px;
+    padding:40px;
 }
 
-/* .quote {
-    display: inline-block;
-    margin:1em;
-    overflow:hidden;
-} */
 
-.quote{
-    font-size: 1.4em;
-    width:60%;
-    margin:50px auto;
-    font-family:Open Sans;
-    font-style:italic;
-    color: #000000;
-    padding:1.2em 30px 1.2em 75px;
-    /* border-left:8px solid #78C0A8 ; */
-    line-height:1.6;
-    position: relative;
-    background:grey;
-  }
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+
 
 .container4 {
     display:flex;
     background-color: cadetblue;
-    justify-content: space-around;
-    margin: 80px;
+    justify-content:space-between;
+    /* margin: 120px; */
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
     padding: 30px;
     border-radius: 5px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
+}
+
+.cite {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* border: 3px solid red; */
+    margin-left: 200px;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+}
+
+.callaction {
+    display:flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-bottom: 20px;
+
+    
+}
+
+h2 {
+    margin-bottom: -1px;
 }
 
 .signup2 {
@@ -157,11 +184,13 @@ a {
     justify-content: center;
     /* flex: 0 0 50px; */
     align-self: center;
+    margin-right: 100px;
     height: 20px;
     width: 90px;
     border-radius: 5px;
     padding: 10px;
     flex-wrap: wrap; 
+    
     
 }
     
