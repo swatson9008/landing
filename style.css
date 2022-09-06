@@ -22,7 +22,8 @@ body {
 
 .logo {
     display: flex;
-    /* align-self: */
+    color: #fff;
+    font-weight: bold;
 }
 
 .navlinks {
@@ -50,6 +51,11 @@ body {
 
     
 } 
+
+h3 {
+    font-weight:bolder;
+    
+}
 
 .container1.seagull {
     display:flex;
@@ -122,7 +128,7 @@ a {
     display:flex;
     /* border: 3px solid red; */
     /* max-height: 500px; */
-    background-color: grey;
+    background-color: #b3b3b3;
     /* margin-top: 50px; */
     justify-content: center;
     align-items: center;
@@ -133,6 +139,8 @@ a {
 .quote {
     font-size: 36px;
     font-style: italic;
+    margin-left: 100px;
+    margin-right: 100px;
     
 }
 
@@ -153,7 +161,7 @@ a {
 }
 
 .cite {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     /* border: 3px solid red; */
     margin-left: 200px;
     display: flex;
